@@ -68,7 +68,7 @@ function Index() {
         </section>
 
         <span className={style.fadeUnderSpan}>
-          여러분은 자신을 위한 시간은 얼마나 '소비' 하고 있나요..?
+          여러분은 자신을 위한 시간은 얼마나 &apos;소비&apos; 하고 있나요..?
         </span>
       </div>
       <div className={`${style.first3} `}>
