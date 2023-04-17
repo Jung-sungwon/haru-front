@@ -1,0 +1,118 @@
+.calDetailBoard {
+  padding: 10%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.calDetailSec {
+  border: 3px solid rgba(97, 82, 82, 0.5);
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 5% 10%;
+  position: relative;
+}
+
+.calDetailSec > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.calDetailSec > div:first-child {
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+.calDetailSec > div:first-child > textarea {
+  height: 100%;
+  resize: none;
+  outline: none;
+  overflow: scroll;
+  border: 2px solid rgba(97, 82, 82, 0.5);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.calDetailSec > div:nth-child(2) > section > input {
+  border: 2px solid rgba(97, 82, 82, 0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.calDetailSec > div:nth-child(2) > section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calDetailSec > div > label {
+  color: purple;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.calDetailSec > span {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.calDetailSec > span > button {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.calDetailSec > span > button:hover {
+  background: #6e6d6d;
+  color: #ffffff;
+}
+
+.edit {
+  width: 60px;
+  height: 40px;
+  background: goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.edit:hover {
+  background: rgb(190, 142, 18);
+  color: #ffffff;
+}
+
+.gauge {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.para {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.reload {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.reload > button {
+  border: none;
+  width: 80px;
+  height: 40px;
+  background: rgba(151, 151, 231, 0.671);
+  border-radius: 5%;
+}
+
+.reload > button:hover {
+  background: rgba(131, 131, 224, 0.671);
+  color: #ffffff;
+}

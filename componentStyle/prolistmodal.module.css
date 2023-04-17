@@ -1,0 +1,127 @@
+.modalBoard {
+  width: 60vw;
+  height: 70vh;
+  position: absolute;
+  background: rgba(61, 61, 87, 0.9);
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.exit {
+  cursor: pointer;
+  position: absolute;
+  color: #ffffff;
+  right: 15px;
+  top: 5px;
+}
+
+.modalSec {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  color: #ffffff;
+}
+
+.modalSec > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5%;
+}
+
+.loading {
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.re {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.re:hover {
+  background: #a3a1a1;
+}
+
+.btnSec > button {
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btnSec > button:hover {
+  background: #a3a1a1;
+}
+
+.btnSec > button:nth-child(2) {
+  margin: auto 10px;
+}
+
+.listTitle {
+  width: 40%;
+  height: 30px;
+  overflow: scroll;
+}
+
+.reconfirmBoard {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: #e0dddd;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  color: black;
+}
+
+.reconfirmExit {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.reconfirmBoard > span {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.reconfirmTitle {
+  font-weight: bold;
+}
+
+.reconfirmBtn > button {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.reconfirmBtn > button:hover {
+  background: #b4b3b3;
+}
+
+.reconfirmBtn > button:first-child {
+  margin-right: 10px;
+}

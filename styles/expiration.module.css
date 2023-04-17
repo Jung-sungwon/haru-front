@@ -1,0 +1,18 @@
+.expireBoard {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10%;
+}
+
+.expireSec {
+  width: 80%;
+  height: 80%;
+  margin: auto 10%;
+  display: flex;
+  align-items: center;
+}
+
+.expireSec > img {
+  width: 70%;
+  object-fit: contain;
+}

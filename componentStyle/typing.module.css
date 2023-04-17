@@ -1,0 +1,26 @@
+.typingSec {
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: "NanumABbaEuiYeonAePyeonJi";
+  /* background: linear-gradient(0deg, #a5a4a4 30%, #000000 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; */
+}
+
+.typingSec::after {
+  content: " ";
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .typingSec {
+    font-size: 2rem;
+  }
+}

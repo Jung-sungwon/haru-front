@@ -1,0 +1,72 @@
+.activeBoard {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  padding-top: 5%;
+}
+
+.activeSec {
+  margin: auto;
+  width: 80%;
+  height: 90%;
+  border: 3px solid rgba(97, 82, 82, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.activeSec > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  flex: 0;
+}
+
+.activeSec > div > label {
+  margin-bottom: 10px;
+  width: 50%;
+  padding-left: 15px;
+}
+
+.activeSec > div > input {
+  outline: none;
+  width: 50%;
+  border: 3px solid rgba(97, 82, 82, 0.5);
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+.activeSec > button {
+  width: 90px;
+  height: 40px;
+  border: 3px solid rgba(97, 82, 82, 0.5);
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgba(97, 82, 82, 0.5);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.activeSec > button:hover {
+  color: #ffffff;
+}
+
+.activeSec > button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -120%;
+  width: 90px;
+  height: 40px;
+  background-color: #352f44;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.activeSec > button:hover::after {
+  bottom: 0;
+}

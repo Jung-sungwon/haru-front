@@ -1,0 +1,51 @@
+.titleBoard {
+  position: relative;
+  height: 40%;
+  z-index: 9;
+}
+
+.title {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 5rem;
+  background: linear-gradient(147deg, #9e82ca 0%, #373044 74%);
+  text-shadow: 10px 10px 15px black;
+  font-family: "NanumSoMiCe";
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.mean {
+  position: absolute;
+  right: 50px;
+  top: 20vh;
+}
+
+.mean > div {
+  font-size: 1.2rem;
+  font-family: "NanumGiBbeumBarkEum";
+}
+
+@media (max-width: 600px) {
+  .title {
+    top: 8vh;
+    font-size: 2rem;
+  }
+
+  .titleBoard {
+    height: 30%;
+  }
+
+  .mean {
+    top: 15vh;
+  }
+  .mean > div {
+    font-size: 0.8rem;
+  }
+}
